@@ -1,12 +1,12 @@
 pkgname=simplenote
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="The simplest way to keep notes."
 arch=('x86_64')
 url="https://github.com/Automattic/simplenote-electron"
 license=('GPL2')
-depends=('libnotify' 'alsa-lib' 'gconf' 'gtk2' 'nss')
-sha256sums=('c1778a652146a296a98fe2773d6b9fd17eaf9e9199b4aae00e23376af3643c7b')
+depends=('libnotify' 'alsa-lib' 'gconf' 'gtk2' 'nss' 'libxtst')
+md5sums=('097a343319daec3a5cd0115a9e66d64c')
 source=("https://github.com/Automattic/simplenote-electron/releases/download/v$pkgver/simplenote-$pkgver.deb")
 
 
